@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>
+    
+</head>
+<body onload="getProducts()">
+    <div class="container">
+        <div class="header">
+            <button class="sort">Sort</button>
+            <h1>Sv-shop</h1>
+            <select onclick="selectProduct()" id="select">
+                <option value="byName">By-name</option>
+                <option value="byPrice">By-price</option>
+            </select>
+        </div>
+        <div id="content">  </div>
+        <button onclick="convertButtonToLink('buyProduct','buy')"id="buyProduct" class="buy-button">Buy</button>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

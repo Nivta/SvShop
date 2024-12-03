@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* סגנון ה-div המרכזי */
+.container {
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* סגנון החלק העליון של ה-div */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header button,
+.header select {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button.sort {
+    background-color: #28a745;
+}
+
+.header select {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* סגנון ה-div האמצעי */
+#content {
+    width: 100%;
+    height: 150px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* סגנון הכפתור התחתון */
+.buy-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
